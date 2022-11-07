@@ -1,0 +1,25 @@
+.FooterBlock {
+    min-height: 135px;
+    background-color: mediumpurple;
+    padding: 50px 0;
+}
+
+.FooterContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Social {
+    display: flex;
+    width: 250px;
+    height: 50px;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #eeeef5;
+}
+

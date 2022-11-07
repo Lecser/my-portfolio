@@ -1,0 +1,38 @@
+.ContactsBlock {
+    min-height: 100vh;
+    background-color: hotpink;
+}
+
+.ContactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.feedbackForm {
+    display: flex;
+    border: 1px solid;
+    width: 250px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.title {
+    background-color: #eeeef5;
+}
+.formInput{
+    width: 245px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.textArea{
+    resize: none;
+    width: 245px;
+    height: 100px;
+}
+.sendBtn{
+    margin-top: 15px;
+    display: inline-block;
+}
