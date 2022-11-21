@@ -5,8 +5,6 @@
     width: 350px;
     background-color: #f7F7F7;
     text-align: start;
-    flex-wrap: wrap;
-
 }
 
 .imgContainer {
@@ -36,4 +34,7 @@
 
 .projectImg {
     width: 100%;
+}
+.ProjectsBlock{
+   flex-wrap: wrap;
 }
